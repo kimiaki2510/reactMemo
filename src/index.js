@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MemoPage from './memo/MemoPage';
 // import MultiForm from './MultiForm'
 import App from './App';
+import MemoApp from './memoApp/memoApp';
 
 const st = {
   textAlign: 'left',
@@ -12,6 +12,7 @@ ReactDOM.render(
   <div style={st}>
     {/* <MultiForm /> */}
     <App />
+    <MemoApp />
   </div>,
   document.getElementById('root')
 )
